@@ -1,0 +1,83 @@
+/* Write your code here. */
+.container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.main-heading {
+  margin-top: 40px;
+  font-size: 42px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #0f172a;
+}
+
+.card-container {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-card {
+  display: flex;
+}
+
+.name {
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #fff;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.card {
+  width: 350px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 20px;
+}
+@media screen and (min-width:576px){
+  .card {
+    width: 300px;
+  }
+  .main-heading {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width:768px){
+  .card {
+    width: 400px;
+  }
+  .main-heading {
+    font-size: 48px;
+  }
+}
+
+.card-1 {
+  background-color: #0b69ff;
+}
+.card-2 {
+  background-color: #2dca73;
+}
+.card-3 {
+  background-color: #ffb800;
+}
+.card-4 {
+  background-color: #ff0b37;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
